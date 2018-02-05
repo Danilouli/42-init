@@ -1,1 +1,1 @@
-https://github.com/Danilouli/init.git
+ifconfig en0 | grep "inet "

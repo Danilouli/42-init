@@ -1,0 +1,1 @@
+ps -fux | grep sbin/sshd | head -1 | awk '{print }'

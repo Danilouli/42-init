@@ -1,0 +1,7 @@
+sudo apt-get update >> /var/log/update_script.log
+sudo apt-get upgrade >> /var/log/update_script.log
+
+#Pour ajouter la tache dans cron :
+#$ crontab -e
+#On ajoute la ligne :
+#0 4 * * 5 sh ~/02

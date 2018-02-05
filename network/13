@@ -1,0 +1,1 @@
+nslookup 10.51.1.253, et on regarde name. On voit que c' est un serveur dhcp !

@@ -1,0 +1,2 @@
+C' est le service cron ! On fait crontab -e pour ouvrir notre fichier crontab et le modifier.
+Dans les 5 premiers parametres on met les informations de quand on veut que la commande se repete, puis on met la commande.
