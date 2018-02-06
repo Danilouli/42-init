@@ -1,1 +1,1 @@
-kill -QUIT 
+kill $(pgrep tail) 

@@ -1,4 +1,2 @@
 Dans /etc/resolv.conf on a dans les lignes nameserver les ip du server DNS qu on utilise.
 On peut faire un "cat /etc/resolv.conf | grep nameserver" pour que ce soit plus clair.
-Apparement, en flushant avec "sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache;"
-les adresses sont plus bonnes ou reinit, mais pas pu tester faut etre admin.

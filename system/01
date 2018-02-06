@@ -1,2 +1,2 @@
-Dans le fichier /etc/issue, si on le cat ca donne :
-Debian GNU/Linux 8 \n \l
+Dans le fichier /etc/debian_version, si on le cat ca donne sur mon serveur :
+8.7

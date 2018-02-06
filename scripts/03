@@ -3,4 +3,4 @@ if [ $# -le 0 ]
 		echo "Il faut mettre un dossier"
 		exit 0
 fi
-du -sk $1/* | sort -rn
+ls -S1l $1

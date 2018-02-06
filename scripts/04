@@ -1,9 +1,8 @@
-old=""
-while true; do
-	new=$(md5sum /etc/crontab)
-	if [ $old != $new ]; then
-		echo "changement de crontab !" | mail -s "Crontab change" "mon_mail@mailus.com"
-		old = $new
-	fi
-	sleep 2
-done
+old=$(cat oldmd5)
+new=$(md5sum /etc/crontab)
+if [ $old != $new ]; then
+	echo "changement de crontab !" | mail -s "Crontab change" "mon_mail@mailus.com"
+	echo $new > oldmd5
+fi
+
+# 0 0 * * * ~/scripts/05

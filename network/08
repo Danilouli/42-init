@@ -1,4 +1,2 @@
-On fait "nslookup slash16.org | grep "Address: "" pour avoir toutes les adresses DNS de slash16.org.
-Puis on prend la premiere (par ex : 13.32.210.8) et on refait "nslookup 13.32.210.8" (dans ce cas la).
-Et la en regardant la ligne en dessous "Non-authoritative answer" on voit que c' est heberge chez cloudfront (donc amazon).
-Ou sinon, traceroute slash16.org, mais ca c' est la question apres...
+On fait traceroute slash16.org (meme si c' est la question d' apres), et on voit la jolie adresse amazon.par.franceix.net...
+Du coup c' est heberge chez Amazon AWS!

@@ -1,1 +1,1 @@
-Il faut modifier le ficher .bashsrc
+Il faut modifier le ficher /etc/hostname, on met juste le nouveau nom dedans, et au reboot le nom sera change
